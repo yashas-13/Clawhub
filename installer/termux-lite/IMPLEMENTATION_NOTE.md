@@ -1,0 +1,1 @@
+Custom endpoint implementation is intentionally kept provider-agnostic: Clawhub collects endpoint metadata and delegates transport/configuration to OpenClaw. This avoids divergence from OpenClaw's provider schema and supports future compatible endpoints.
